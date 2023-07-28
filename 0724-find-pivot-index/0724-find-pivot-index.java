@@ -1,5 +1,6 @@
 public class Solution {
-    public int pivotIndex(int[] nums) {
+    public int pivotIndex(int[] nums) 
+    {
         int total = 0, leftSum = 0;
         
         for (int i=0;i<nums.length;i++) 
@@ -7,8 +8,10 @@ public class Solution {
             total += nums[i];
         }
         
-        for (int i = 0; i < nums.length; ++i) {
-            if (leftSum == total - leftSum - nums[i]) {
+        for (int i = 0; i < nums.length; i++) 
+        {
+            if (leftSum == total - leftSum - nums[i]) 
+            {
                 return i;
             }
             leftSum += nums[i];
