@@ -1,6 +1,6 @@
 class Solution {
     public int differenceOfSum(int[] nums) 
-    {//2441 2455
+    {
         int n=nums.length;
         int sum=0;
         int digitsum=0;
