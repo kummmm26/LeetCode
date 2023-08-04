@@ -10,15 +10,12 @@ class Solution {
                 count++;
             }
         }
-        int ans=0;
+
         if(count==0)
         {
             return 0;
         }
-        else
-        {
-          ans = sum/count;
-        }
-        return ans;
+       
+        return sum/count;
     }
 }
