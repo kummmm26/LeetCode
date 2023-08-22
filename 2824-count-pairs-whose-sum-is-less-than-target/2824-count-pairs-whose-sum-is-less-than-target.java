@@ -6,8 +6,7 @@ class Solution {
         {
             for(int j=i+1;j<nums.size();j++)
             {
-                int m=nums.get(i),n=nums.get(j);
-                if(m+n < target)
+                if(nums.get(i)+nums.get(j) < target)
                 {
                     count++;
                 }
